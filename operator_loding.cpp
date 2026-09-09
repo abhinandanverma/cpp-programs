@@ -8,7 +8,7 @@ class number{
  }
  number operator +(number n) 
  {
-    return number(x+n.x);
+    return number(x+n.x); 
 
  }
  void display() 
