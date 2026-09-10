@@ -3,7 +3,7 @@ using namespace std;
 class Abhinandan
 {
     public:
-    virtual int show()
+    int show()
     {
         cout<<"This is Abhinandan class";
     }
@@ -24,4 +24,4 @@ Verma obj;
 ptr =&obj;
 ptr ->show();
 
-}
+}  
