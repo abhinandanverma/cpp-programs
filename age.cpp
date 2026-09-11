@@ -9,7 +9,7 @@ class customer
     {
         this->name=name;
         this->account_number=account_number;
-        this->account_number=balance;
+        this->balance=balance;
     }
     void display()
     {
@@ -19,9 +19,8 @@ class customer
 
 int main()
 { 
-    // customer A1 A2();
-    customer A1("Rohit",12,2000);
-    customer A2("mohan",13,3000);
+    customer A1("Rohit",12,1000);
+    customer A2("mohan",13,300);
     A1.display();
     A2.display();
 }
