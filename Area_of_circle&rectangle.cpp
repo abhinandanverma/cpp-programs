@@ -1,7 +1,22 @@
 #include<iostream>
 using namespace std;
-class Area
-{
+class abc{
+    float result;
     public:
-    int 
+    void area (int r){
+     result=3.14*r*r;
+     cout<<"area of circle "<<result<<endl;   
+    }
+    void area (int l,int b)
+    {
+        result=l*b;
+        cout<<"area of rectangle="<<result<<endl;
+    }
 };
+int main(){
+    abc obj;
+    obj.area(7);
+    obj.area(9,10);
+    return 0;
+}
+

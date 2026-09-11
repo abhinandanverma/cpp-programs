@@ -8,6 +8,6 @@ int main(){
     cout <<grade;
     cout <<age;
     cout <<PI;
-    //cout<<sizeof(age);
+    cout<<sizeof(age);
     return 0;
 }
