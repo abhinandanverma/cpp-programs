@@ -34,45 +34,45 @@
 
 
 
-// #include<iostream>
-// using namespace std;
-// class car{
-// public:
-//     string name;
-//     int price;
-//     int seates;
-//     string type;
+#include<iostream>
+using namespace std;
+class car{
+public:
+    string name;
+    int price;
+    int seates;
+    string type;
 
-// };
-// void print(car c){
-//   cout<<c.name<<" "<<c.price<<" "<<c.seates<<" "<<c.type<<""<<endl;
-// }
-// int main(){
-//     car c1;
-//     c1.name="Honda city";
-//     c1.price=130000;
-//     c1.seates=5;
-//     c1.type="sedan";
+};
+void display(car c){
+  cout<<c.name<<" "<<c.price<<" "<<c.seates<<" "<<c.type<<""<<endl;
+}
+int main(){
+    car c1;
+    c1.name="Honda city";
+    c1.price=130000;
+    c1.seates=5;
+    c1.type="sedan";
 
-//     car c2;
-//     c2.name="swift";
-//     c2.price=60000;
-//     c2.seates=5;
-//     c2.type="hatcback";
+    car c2;
+    c2.name="swift";
+    c2.price=60000;
+    c2.seates=5;
+    c2.type="hatcback";
 
-//     car c3;
-//     c3.name="kia";
-//     c3.price=120000;
-//     c3.seates=5;
-//     c3.type="SUV";
+    car c3;
+    c3.name="kia";
+    c3.price=120000;
+    c3.seates=5;
+    c3.type="SUV";
 
-//     print(c1);
+   display(c1);
     
-//     print(c2);
+    display(c2);
      
-//     print(c3);
+    display(c3);
       
-// }
+}
 
 
 
