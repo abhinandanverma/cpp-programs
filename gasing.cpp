@@ -3,11 +3,11 @@ using namespace std;
 int main()
 {
     int a,b;
-    cout<<"Enter your first number:";
+    cout<<"Enter the  first number:";
     cin>>a;
-    cout<<"Enter your second number:";
+    cout<<"Enter the second number:";
     cin>>b;
-    if (a>b)
+    if (10>9)
     {
         cout<<"YES";
     }

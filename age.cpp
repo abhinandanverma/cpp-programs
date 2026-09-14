@@ -20,7 +20,7 @@ class customer
 int main()
 { 
     customer A1("Rohit",12,1000);
-    customer A2("mohan",13,300);
+    customer A2("mohan",13,3000);
     A1.display();
     A2.display();
 }
