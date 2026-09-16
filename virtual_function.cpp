@@ -29,30 +29,69 @@
 
 // _____________________________________without virtual function_______________________________________-
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-class Animal {
-public:
-        void sound() {
-        cout << "Animal makes a sound";
+// class Animal {
+// public:
+//         void sound() {
+//         cout << "Animal makes a sound";
+//     }
+// };
+
+// class Dog : public Animal {
+// public:
+//     void sound() {
+//         cout << "Dog barks";
+//     }
+// };
+
+// int main() {
+//     Animal *a;
+//     Dog d;
+
+//     a = &d;
+
+//     a->sound();
+
+//     return 0;
+// }
+
+
+#include<iostream>
+using namespace std ;
+class Animal
+{
+    public:
+    virtual void sound()
+        {
+            cout<<"Animal make sound";
+        }
+    };
+    class dog: public Animal
+    {
+      public:
+         void sound()
+      {
+        cout<<"Dog Barks";
+      }
+    };
+    class cat: public Animal
+    {
+        public:
+             void sound()
+        {
+            cout<<"cat Meows";
+        }
+    };
+    int main()
+    {
+        Animal*p;
+        dog d;
+        cat c;
+        p =&d;
+        p->sound();
+        p =&c;
+        p->sound();
+        
     }
-};
-
-class Dog : public Animal {
-public:
-    void sound() {
-        cout << "Dog barks";
-    }
-};
-
-int main() {
-    Animal *a;
-    Dog d;
-
-    a = &d;
-
-    a->sound();
-
-    return 0;
-}
