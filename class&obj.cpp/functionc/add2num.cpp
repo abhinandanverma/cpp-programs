@@ -17,20 +17,30 @@
 // }
 
 
+// #include<iostream>
+// using namespace std;
+// int add(int ,int);
+
+// int main(){
+//     int num1,num2;
+//     cin>>num1;
+//     cout<<endl;
+//     cin>>num2;
+//     cout<<add(num1 ,num2);
+// }
+
+
+//    int add (int a,int b){
+//    int sum=a+b;
+//    return sum;
+// }
+
+
 #include<iostream>
 using namespace std;
-int add(int a,int b );
-
-int main(){
-    int num1,num2;
-    cin>>num1;
-    cout<<endl;
-    cin>>num2;
-    cout<<add(num1 ,num2);
-}
-
-
-   int add (int a,int b){
-   int sum=a+b;
-   return sum;
-}
+ void printhello(){
+    cout<<"hello";
+ }
+ int main(){
+    printhello();
+ }
