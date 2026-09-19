@@ -13,7 +13,7 @@ class customer
         balance=c;
     }
     void display(){
-        cout<<"Name :"<<name<<" account_number :"<<account_number<<" balancce : "<<balance<<endl;
+        cout<<  "Name:" <<name<<  "account_number:" <<account_number<<  "balancce :" <<balance<<endl;
     }
 
 };
