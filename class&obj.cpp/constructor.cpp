@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-class techer{
+class teacher{
     public:
     string name;
     string subject;
     double salary;
-    techer(string name,string subject,double salary){
+    teacher(string name,string subject,double salary){
         this->name=name;
         this ->subject =subject;
         this->salary =salary;
@@ -16,6 +16,8 @@ class techer{
     }  
 };
 int main(){
-    techer t1("Abhinandan", "c++"  ,25000);
+    teacher t1("Abhinandan", "c++"  ,25000);
+    teacher t2("Arpit","java",30000);
     t1.desplay();
+    t2.desplay();
 }
