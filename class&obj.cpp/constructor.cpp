@@ -17,7 +17,7 @@ class teacher{
 };
 int main(){
     teacher t1("Abhinandan", "c++"  ,25000);
-    teacher t2(t1);
+    teacher t2(t1); /// this is the copy constructor
     teacher t3("Arpit","java",30000);
     t1.desplay();
     t2.desplay();
