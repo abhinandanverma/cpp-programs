@@ -13,12 +13,12 @@
 
 #include<iostream>
 using namespace std;
-int add(int a=2,int b=3) //default
+int add(int a=2,int b=3) // with perameter
 {
     return a+b;
 }
 int main()
 {
-    cout<<"sum =" <<add ();
+    cout<<"sum =" <<add ();// call function
     // return 0;
 }

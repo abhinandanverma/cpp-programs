@@ -6,6 +6,7 @@ int sum(int n){
     sum+=i;
     }
     return sum;
+    
 }
 int main(){
     cout<<sum(10)<<endl;

@@ -3,23 +3,23 @@ using namespace std;
 class student 
 {
     public :
-    int *marks;
+    int *marks; // pointr dat member
     student()
     {
-        marks = new int;
+        marks = new int; //dunamic memory allocation
     }
-    void input()
+    void input()//input member function
     {
         cout<<"Enter marks: ";
         cin>>*marks;
     }
     void display(){
-        cout<< "marks = "<<*marks;
+        cout<< "marks = "<<*marks; //Dereference operator (*)
     }
 };
 int main()
 {
-    student s1;
-    s1.input();
-    s1.display();
+    student s1; // s1 is the object
+    s1.input();// calling function
+    s1.display(); // callin member function
 }

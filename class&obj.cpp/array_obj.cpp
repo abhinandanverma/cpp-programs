@@ -7,9 +7,9 @@ class student
     int marks;
     void input()
     {
-        cout<<"enter Roll: ";
+        cout<<"Enter Roll: ";
         cin>>roll;
-        cout<<"enter marks: ";
+        cout<<"Enter marks: ";
         cin>>marks;
     }
     void display()

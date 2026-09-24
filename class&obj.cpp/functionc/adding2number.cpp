@@ -7,9 +7,9 @@ int add (int a,int b)// functon add and a or b is the parameter
 int main()
 {
     int x,y, result;
-    //cout<<"Enter the first number :";
+    cout<<"Enter the first number :";
     cin>>x;
-    //cout<<"Enter the second number:";
+    cout<<"Enter the second number:";
     cin>>y;
     result =add (x,y); // call the function
     cout<<"sum = "<<result; // display the result 

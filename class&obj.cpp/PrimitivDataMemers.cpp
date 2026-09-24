@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-class Student
+class Student // this is the class define
 {
     public:
-    int roll;
-    float marks; 
+        int roll;
+        float marks; 
     void display()
     {
         cout << "Roll number: " << roll << endl;
@@ -13,9 +13,9 @@ class Student
 };
 int main()
 {
-    Student s1;
-    s1.roll=03;
-    s1.marks=9.9;
+    Student s1; //s1 is the object define.
+    s1.roll=03;// value assign karega.
+    s1.marks=9.9;// value assign karega.
 
-    s1.display();
+    s1.display(); //member function
 }

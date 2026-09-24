@@ -5,7 +5,7 @@ class student
     public:
     string name;
     int age;
-    void input()
+    void input()// member function 
     {
         cout<<"Enter the name: ";
         cin>>name;
