@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class student
+class student // student
 {
     public:
     string name;
@@ -10,8 +10,8 @@ class student
     }
 };
 int main(){
-    student s1;
-    s1.name = "Abhinandan";
+    student s1;//object
+    s1.name = "Abhinandan";// object ke though data access
     s1.age = 19;
-    s1.display();
+    s1.display();// member function call
 }
