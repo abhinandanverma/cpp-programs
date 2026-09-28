@@ -5,18 +5,18 @@ class student
     private:
         int marks;
     public:
-        void setMarks(int m)
+        void Marks(int m)
         {
             marks =m;
         }
         void display()
         {
-            cout<< "Your marks: " <<marks <<endl;
+            cout<< "Your Marks: " <<marks <<endl;
         }
 };
 int main()
 {
     student s1;
-    s1.setMarks(99);
+    s1.Marks(99);
     s1.display();
 }    
