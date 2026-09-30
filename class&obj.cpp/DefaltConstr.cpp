@@ -5,7 +5,8 @@ class  student
     public:
     string name;
     int id;
-    student(){
+    student()//this is the defalt cont.
+    {
         name="Abhinandaan";
         id=003;
     }
@@ -14,6 +15,6 @@ class  student
     }
 };
 int main(){
-    student s1;
+    student s1; // s1 is the object
     s1.display();
 }

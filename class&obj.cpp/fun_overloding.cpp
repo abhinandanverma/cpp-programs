@@ -3,9 +3,9 @@ using namespace std;
 class Calculator
 {
     public:
-    int add(int a,int b)
+    int add(int a,int b)// add is the function name  ----> a,b is the parameters
     {
-        return a+b;
+        return a+b; // a+b dono number ko add karke result deta hai ---->10+20=30
     }
     int add(int a,int b,int c)
     {

@@ -18,7 +18,7 @@ class teacher
 };
 int main() {
  teacher t1;
-    t1.name ="Abhinandan";
+    t1.name ="Aarush";
     t1.dept="computer science";
     t1.subject="c++";
     t1.salary=25000;

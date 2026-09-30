@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
-class Student
+class A//Ais the calss name
 {
     private:;
-        int s = 90;
+        int a = 90;
     public: 
-        friend void showMarks(Student student);
+        friend void showMarks(A obj);
 };
-void showMarks(Student s)
+void showMarks(A obj)
 {
-    cout<< "Marks = " << s.s;
+    cout<< "Marks = " << obj.a;
 }
 int main()
 {
-    Student s1;
+    A s1;
     showMarks (s1);
 
 }

@@ -3,13 +3,13 @@ using namespace std;
 class Student
 {
     public:
-    Student()
+    Student() //constructor
     {
       cout << " Constructor Called " <<endl;
     }
-    ~Student()
+    ~Student()// ~ Desteuctor
     {
-      cout<< " ~Desteuctor celled " << endl ;
+      cout<< " ~Desteuctor celled " << endl ; 
     }
 };
 int main ()

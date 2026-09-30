@@ -2,14 +2,18 @@
 using namespace std;
 class Student
 {
-    private:;
-        int s = 90;
-    public: 
-        friend void showMarks(Student student);
+    private:
+        int marks;
+    public:
+        Student()
+        {
+            marks = 90;
+        }    
+        friend void showMarks(Student Student);
 };
 void showMarks(Student s)
 {
-    cout<< "Marks = " << s.s;
+    cout<< "Marks = " << s.marks;
 }
 int main()
 {
