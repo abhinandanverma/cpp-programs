@@ -31,12 +31,11 @@ int main()
 
     // Using + operator with objects
     Student s3 = s1 + s2;
-
     cout << "Total Marks = " << s3.marks << endl;
+    
+    
     Student s4 = s1 + s2;
-
     cout << "Total Marks = " << s4.marks << endl;
-
   
     return 0;
 }

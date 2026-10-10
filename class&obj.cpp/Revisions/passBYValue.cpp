@@ -11,7 +11,7 @@ void display(Car c)
 {
     cout<<c.name<<" " << c.price<<" " <<c.seates<<endl;
 }
-void change( Car & c){
+void change( Car c){
     c.name = " Audi A8"; 
 }
 int main()

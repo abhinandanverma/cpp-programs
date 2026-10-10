@@ -9,7 +9,7 @@ class student{
 int main(){
     student s1;
     s1.name = "Abhinandan";
-    s1.rno = 03;
+    s1.rno = 3;
     s1.CGPA = 9.9;
     // cout<<s1.name<<" "<<s1.rno<<" "<<s1.CGPA<<" "<<endl;
     cout<<"NAME = "<<s1.name<<endl;
