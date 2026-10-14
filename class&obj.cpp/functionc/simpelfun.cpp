@@ -2,7 +2,7 @@
 using namespace std;
  
 void hello(){
-    cout<< "i am softer engginer ";
+    cout<< "I am softer engginer ";
 }
 int main(){
     hello();

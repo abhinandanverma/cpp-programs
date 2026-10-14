@@ -15,6 +15,6 @@ class Criketer{
     }
 };
 int main(){
-    Criketer* c1= new Criketer("virat kohli",25000,55.2);
+    Criketer* c1= new Criketer("Virat kohli",25000,55.2);
     c1->display();
 }

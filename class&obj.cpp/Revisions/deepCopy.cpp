@@ -14,7 +14,7 @@ class car {
 int main(){
     car c1("BMW",4000000,5);
     car c2(c1);
-    c2.name = "neno";
+    c2.name = "neno";  /// this is  deep copy constr
     cout<<c1.name<< " " <<c1.price<< " " <<c1.seats<<endl;
     cout<<c2.name<< " " <<c2.price<< " " <<c2.seats<<endl;
 }
