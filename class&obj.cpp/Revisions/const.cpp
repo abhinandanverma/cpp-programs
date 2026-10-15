@@ -10,6 +10,6 @@ class Calculator {  // Class
 
 int main() {
     Calculator calc;  // Object
-    int ans = calc.add(5, 3);  // Object se function call
-    cout << "Answer: " << ans;
+    int sum = calc.add(5, 3);  // Object se function call
+    cout << "Answer: " << sum;
 }
