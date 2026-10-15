@@ -1,3 +1,2 @@
 
-};
-int main()
+    s1.name=
