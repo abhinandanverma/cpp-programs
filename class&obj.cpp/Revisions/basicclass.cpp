@@ -8,7 +8,7 @@ class Student {
         int roll;     // data member
 
         // member function
-        void show() {
+        void display() {
             cout << "Name: " << name << endl;
             cout << "Roll: " << roll << endl;
         }
@@ -23,7 +23,7 @@ int main() {
     s1.roll = 101;
     
     // 4. Object ke through function call kiya
-    s1.show();
+    s1.display();
     
     return 0;
 }
