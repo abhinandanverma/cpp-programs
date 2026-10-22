@@ -1,14 +1,4 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-    int n =1;
-    char num = 'A';
-    for(int i = 0;i<n;i++){
-        cout<<n;
-        n++;
-    }
-    cout<<endl;
-    
-  return 0;  
-}
+
+    cout<<"enter the first number:";
+    cin>>num1;
+    cout<<"enter the second number:";
