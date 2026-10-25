@@ -14,7 +14,7 @@ public:
 
 };
 int main(){
-    Cricketer c1("virat",25000);
+    Cricketer c1("Virat",25000);
     Cricketer c2("Rohit", 18000);
     c1.display();
     c2.display();
