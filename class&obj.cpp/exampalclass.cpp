@@ -5,7 +5,7 @@ public:
     string name;
     int rollno;
     void display(){
-        cout<< " Name: " << name <<endl;
+        cout<< " Name: " <<name <<endl;
         cout<< " RollNo: " <<rollno <<endl;
     }
 };

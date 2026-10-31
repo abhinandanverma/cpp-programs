@@ -22,4 +22,5 @@ class B:public A{
 int main(){
     B obj;
     obj.display();
+    
 };

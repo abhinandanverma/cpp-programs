@@ -29,15 +29,15 @@ class customer
         if (amount>0&&amount<=balance)
         {
             balance-=amount;
-            cout<< amount<<"is debited successfully\n";
+            cout<< amount<<" is debited successfully\n";
         }
         else if(amount<0)
         {
-           cout<<"amount should be greatr than 0\n";
+           cout<<" amount should be greatr than 0\n";
         }
         else
         {
-            cout<<"your balance is low<<endl";
+            cout<<" your balance is low<<endl";
         }
         
     }
