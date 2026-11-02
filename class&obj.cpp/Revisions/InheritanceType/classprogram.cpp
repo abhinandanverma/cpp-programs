@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
-class Car{
+class Car{  // car is the class 
 public:
     string name;
-    string name1;
+    string name1; //this is the data member
     int speed;
     int price;
-void display()
+void display() //member function
 {
     cout<< "car = "<<name<<endl;
     cout<< "speed = "<<speed<<endl;
@@ -16,11 +16,11 @@ void display()
 }
 };
 int main(){
-    Car c1;
+    Car c1; // name ka object
     c1.name1 = "Raten TATA";
     c1.name = "TATA nono";
     c1.speed = 180;
     c1.price = 300000;
-    c1.display();
+    c1.display(); ///function call
     return 0;
 }
