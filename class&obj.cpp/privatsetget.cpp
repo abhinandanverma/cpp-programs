@@ -4,7 +4,7 @@ class BankAccount{
 private:
     int balance;
 public:
-    void setBalance(int b){
+    int setBalance(int b){
         balance = b;
 
     }  
