@@ -1,3 +1,6 @@
 
-    int b;
-    B(){
+    } 
+    
+};
+int main(){
+    petname p1;
