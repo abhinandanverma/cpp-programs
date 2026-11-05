@@ -32,4 +32,5 @@ public:
 int main(){
     child c1 ;
     c1.showAge();
+    return 0;
 }
