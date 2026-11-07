@@ -1,6 +1,3 @@
 
-    } 
-    
-};
-int main(){
-    petname p1;
+    s1.showfather();
+    s1.showGrandfather();
