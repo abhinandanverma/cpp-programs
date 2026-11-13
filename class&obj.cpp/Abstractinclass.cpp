@@ -9,15 +9,15 @@ public:
 class Dog : public Animal{
 public:
     void sound() override{
-        cout <<"Dog: Baerk Bark"<<endl;
+        cout <<"Dog : Baerk Bark"<<endl;
     }
 };
 
 int main(){
     Dog d;//Error: Cannot create object
     d.sound();
-    Animal a;
-    a.sound();
+    // Animal a;
+    // a.sound();
 
     return 0;
 
